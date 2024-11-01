@@ -1,0 +1,25 @@
+.app-wrapper{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 2fr 10fr 2fr;
+    color: white;
+    .outlet{
+        overflow-y: scroll;
+    }
+    .navbar{
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        background-color: #201640;
+        justify-content: space-between;
+        .material-icons{
+            color: white;
+        }
+        Link{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

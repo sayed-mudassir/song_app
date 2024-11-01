@@ -1,0 +1,50 @@
+.song-list {
+  p {
+    // color: #fff;
+    font-size: 25px;
+    // justify-self: center;
+    // align-self: center;
+  }
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #121212;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  .song {
+    .btn {
+      display: flex;
+      gap: 10px;
+      padding: 0;
+      margin: 0;
+    }
+    padding: 10;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 30fr 1fr 1fr;
+    padding: 10px;
+    border-bottom: 1px solid #e3e3e3;
+    color: #a1a1a1;
+    // justify-content: space-between;
+    button {
+      background-color: transparent;
+      background: transparent;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: none;
+      background-color: #e3e3e3;
+    }
+  }
+  button {
+    background-color: transparent;
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #e3e3e3;
+  }
+}
